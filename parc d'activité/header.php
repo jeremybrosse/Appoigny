@@ -9,9 +9,11 @@
 	<link rel="stylesheet" href="assets/css/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="assets/js/timeLine.js"></script>
 	<script src="assets/js/jquery.timelinr-0.9.7.js" type="text/javascript"></script>
 	<script src="assets/js/bootstrap.js" type="text/javascript"></script>
 	<script src="assets/js/owl.carousel.js"></script>
