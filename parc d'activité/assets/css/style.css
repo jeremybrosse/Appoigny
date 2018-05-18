@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Rubik+Mono+One');
+a{
+  color: white !important;
+  font-family: Alice;
+}
+#tailleI{
+  background-image: url(../img/accueil.png);
+
+}
+h1{
+  font-family: Alice;
+  text-align: center;
+  text-shadow: 2px 2px 2px grey;
+}
+#align{
+  text-align: center;
+}
+#center{
+  text-align: center;
+}
+.logo{
+  height: 65%;
+  position: absolute;
+  left: 7vw;
+  top: -4vh;
+  z-index: 9999;
+  background-color: white;
+  border-radius: 1.5em;
+  border: 3px solid white;
+  box-shadow:  5px 5px 5px grey;
+}
+.title{
+  background-color: rgba(250,250,250,0.4);
+  position: absolute;
+  top: 0vh;
+  right: 8.75vw;
+  padding:1.9em 6.6em 1.9em 6.6em;
+  font-size: 4em;
+}
+.draw{
+  margin-left: 12em;
+}
+nav{
+  width: 100em;
+}
+.ecoparc{
+  font-size: 2.1em;
+  color: #006400;
+}
+.forest{
+  position: fixed;
+  height: 25em;
+  top: 28vw;
+  left: -17vh;
+  z-index: -1;
+}
+.build{
+  position: fixed;
+  height: 25em;
+  top: 16vw;
+  right: -17vh;
+}
+.pictogramme{
+height: 10em;
+}
+.btn{
+  position: relative;
+  top: -7vh;
+}
+.onglet1{
+  position: absolute;
+  left: 12.5vw;
+  top: 1.25vh;
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+  border-radius: 10em;
+  opacity: 0;
+  padding: 4.3em 3em;
+}
+.onglet2{
+  position: absolute;
+  left: 24vw;
+  top: 1.25vh;
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+  border-radius: 10em;
+  opacity: 0;
+  padding: 4.3em 2.5em;
+
+
+}
+.onglet3{
+  position: absolute;
+  left: 36.5vw;
+  top: 1.25vh;
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+  border-radius: 10em;
+  opacity: 0;
+  padding: 4.3em 1.8em;
+
+
+}
+.onglet4{
+  position: absolute;
+  left: 49.1vw;
+  top: 1.25vh;
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+  border-radius: 10em;
+  opacity: 0;
+  padding: 4.3em 2.8em;
+
+
+}
+.onglet5{
+  position: absolute;
+  left: 61.5vw;
+  top: 1.25vh;
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+  border-radius: 10em;
+  opacity: 0;
+  padding: 4.3em 3.1em;
+
+
+}
+.first-news:hover .onglet1 , .first-news:hover .onglet2, .first-news:hover .onglet3, .first-news:hover .onglet4, .first-news:hover .onglet5{
+  opacity: 1;
+  transition: .5s;
+}
+.logo-partenaires{
+  height: 2.5em;
+}
+.owl-prev, .owl-next{
+  display: none;
+}
+.bg-lightgreen{
+  background-color: rgb(174,174,172);
+}
+.card{
+  border: 3px solid rgb(174,174,172) !important;
+  border-radius: 1.5em !important;
+}
+.btn-letter{
+  position: static !important;
+}
+.newsletter{
+  font-size: 1.5em;
+}
+.fas{
+  color: rgb(255,112,88);
+}
+.bg-orange{
+  background-color: rgb(255,112,88);
+}
+.bg-footer{
+  background-color: rgba(250,250,250,0.7);
+}
+/********************/
+/*timeline histoire */
+/********************/
+ a {
+  color: #000!important;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+  a:hover,
+  a.selected {
+    color: #000!important;
+  }
+
+
+  
+  
+  margin-bottom: 5px;
+}
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+.sociales {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+  #timeline {
+   
+    color: #000;
+    font-size: 14px;
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+    margin: 100px auto;
+    position: relative;
+    background: url('../img/imgtimeline/dot.gif') left 45px repeat-x;
+  }
+    #dates {
+      width: 800px;
+      height: 60px;
+      overflow: hidden;
+    }
+      #dates li {
+        color: #000;
+        list-style: none;
+        float: left;
+        width: 100px;
+        height: 50px;
+        font-size: 24px;
+        text-align: center;
+        background: url('../img/imgtimeline/biggerdot.png') center bottom no-repeat;
+      }
+        #dates a {
+          line-height: 38px;
+          padding-bottom: 10px;
+        }
+        #dates .selected {
+              font-size: 38px;
+        }
+    
+    #issues {
+
+      width: 800px;
+      height: 350px;
+      overflow: hidden;
+    } 
+      #issues li {
+        width: 800px;
+        height: 350px;
+        list-style: none;
+        float: left;
+      }
+        #issues li.selected img {
+          -webkit-transform: scale(1.1,1.1);
+          transform: scale(1.1,1.1);
+        }
+        #issues li img {
+          float: left;
+          margin: 10px 30px 10px 50px;
+          background: transparent;
+          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+          zoom: 1;
+          -webkit-transition: all 2s ease-in-out;
+          transition: all 2s ease-in-out;
+          -webkit-transform: scale(0.7,0.7);
+          transform: scale(0.7,0.7);
+        }
+        #issues li h1 {
+          
+          font-size: 48px;
+          margin: 20px 0;
+          color: rgb(255,112,88);
+        }
+        #issues li p {
+          font-size: 14px;
+          margin-right: 70px;
+          font-weight: normal;
+          line-height: 22px;
+         
+        }
+    
+    #grad_left,
+    #grad_right {
+      width: 100px;
+      height: 350px;
+      position: absolute;
+      top: 0;
+    }
+      #grad_left {
+            left: 0;
+            background: url('../img/imgtimeline/grad_left.png') repeat-y;
+      }
+      #grad_right {
+            right: 0;
+            background: url('../img/imgtimeline/grad_right.png') repeat-y;
+      }
+    
+    #next,
+    #prev {
+      position: absolute;
+      top: 0;
+      font-size: 70px;
+      top: 170px;
+      width: 22px;
+      height: 38px;
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      overflow: hidden;
+    }
+      #next:hover,
+      #prev:hover {
+        background-position: 0 -76px;
+      }
+      #next {
+        right: 0;
+        background-image: url('../img/imgtimeline/next.png');
+      }
+      #prev {
+        left: 0;
+        background-image: url('../img/imgtimeline/prev.png');
+      }
+        #next.enabled,
+        #prev.enabled {
+          opacity: 0.2;
+        }
