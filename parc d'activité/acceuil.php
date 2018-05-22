@@ -27,6 +27,7 @@ include_once('header.php');
 					notoriété des entreprises et du site.</p>
 					<p>Au Sud, environ 10 hectares, longeront la RN6, derrière le parc
 					hôtelier/restauration.</p>
+					<a href="http://www.communaute-auxerrois.com/images/publications/parc-activite-appoigny/Parc_activite_appoigny.pdf"><strong>Le parc d'activités économiques à Appoigny : la priorité au maintien et au développement de l'emploi local</strong></a> 
 				</div>
 			</div>
 		</section>

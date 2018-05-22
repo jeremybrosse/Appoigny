@@ -127,16 +127,22 @@ height: 10em;
 
 
 }
-.first-news:hover .onglet1 , .first-news:hover .onglet2, .first-news:hover .onglet3, .first-news:hover .onglet4, .first-news:hover .onglet5{
+.first-news:hover .onglet1, .first-news:hover .onglet2, .first-news:hover .onglet3, .first-news:hover .onglet4, .first-news:hover .onglet5{
   opacity: 1;
   transition: .5s;
 }
+
+/*toggle legende*/
+#feedback{
+  display: none;
+}
+
+
+
 .logo-partenaires{
   height: 2.5em;
 }
-.owl-prev, .owl-next{
-  display: none;
-}
+
 .bg-lightgreen{
   background-color: rgb(174,174,172);
 }
@@ -177,7 +183,7 @@ a {
 h1,h2,h4,h5,h6 {
   text-align: center;
   color: #ccc;
-  text-shadow: #000 1px 1px 2px;
+  text-shadow: grey 1px 1px 2px;
   margin-bottom: 5px;
 }
   h1 {
@@ -205,7 +211,7 @@ h1,h2,h4,h5,h6 {
     #dates {
       width: 800px;
       height: 60px;
-      overflow: hidden;
+      overflow: hidden; 
     }
       #dates li {
         list-style: none;
@@ -215,17 +221,18 @@ h1,h2,h4,h5,h6 {
         font-size: 24px;
         text-align: center;
         background: url('../img/imgtimeline/biggerdot.png') center bottom no-repeat;
+   
       }
         #dates a {
           line-height: 38px;
           padding-bottom: 10px;
+          
         }
         #dates .selected {
               font-size: 38px;
         }
     
     #issues {
-
       width: 800px;
       height: 350px;
       overflow: hidden;
@@ -236,34 +243,38 @@ h1,h2,h4,h5,h6 {
         list-style: none;
         float: left;
       }
-        #issues li.selected img {
+       /* #issues li.selected img {
           -webkit-transform: scale(1.1,1.1);
           transform: scale(1.1,1.1);
         }
-        #issues li img {
+        /*#issues li img {
           float: left;
           margin: 10px 30px 10px 50px;
           background: transparent;
           -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
-          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
-          zoom: 1;
+        /*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+        /*  zoom: 1;
           -webkit-transition: all 2s ease-in-out;
           transition: all 2s ease-in-out;
           -webkit-transform: scale(0.7,0.7);
           transform: scale(0.7,0.7);
-        }
+        }*/
         #issues li h1 {
-          color: #fff;
+          color: #000!important;
           font-size: 48px;
           margin: 20px 0;
           text-shadow: #000 1px 1px 2px;
+          text-align: left;
         }
         #issues li p {
-          font-size: 14px;
+           color: #000!important;
+          font-size: 20px;
           margin-right: 70px;
           font-weight: normal;
           line-height: 22px;
           text-shadow: #000 1px 1px 2px;
+          text-align: left;
+
         }
     
     #grad_left,
@@ -310,6 +321,12 @@ h1,h2,h4,h5,h6 {
         #next.enabled,
         #prev.enabled {
           opacity: 0.2;
+        }
+
+
+        .imgtimeline{
+          position:relative;
+          top: 114px;
         }
         /**********************/
         /*timeline photo/video*/

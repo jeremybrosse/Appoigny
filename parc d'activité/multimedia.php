@@ -10,13 +10,12 @@ include_once('header.php');
 				<div class="lineHeader hidden-sm hidden-xs"></div>
 				<div class="lineFooter hidden-sm hidden-xs"></div>
 
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item
-					 wow rotateInUpRight "  style="visibility: visible; animation-duration: 2s;">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
 						<div class="caption">
 							<div class="star center-block">
-								<span class="h3">27</span>
-								<span>Jan</span>
-								<span>1990</span>
+								<span class="h3">10</span>
+								<span>nov</span>
+								<span>2016</span>
 							</div>
 							<div class="image">
 								<img src="https://picsum.photos/600/400/?random">

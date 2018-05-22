@@ -11,6 +11,8 @@ include_once('header.php');
  					<div class="col-md-12  mb-3">
  						<p class=" text-center text-contact">
  							Vous souhaitez un renseignement ?<br>
+ 							Par téléphone au 06.62.32.35.35<br>
+ 							ou<br>
  							Laissez-nous un message via ce formulaire de contact, nous y répondrons dans les plus brefs délais.
  						</p>
  					</div>

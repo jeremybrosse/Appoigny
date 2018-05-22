@@ -12,6 +12,15 @@ include_once('header.php');
 				<img src="assets/img/planning.png">
 				
 			</div>
+			<div class="col12">
+				<img src="assets/img/plan.png">
+				
+			</div>
+
+			<p id="submit">- Cliquez ici pour voir la Legende...</p>
+			<dir id="feedback">
+				<img src="assets/img/legende.png">
+			</dir>
 		</section>
 	</main>
 <?php 
