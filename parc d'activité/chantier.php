@@ -14,10 +14,14 @@ include_once('header.php');
 			</div>
 			<div class="col12">
 				<img src="assets/img/plan.png">
-				
+				<p><strong>Cliquez ici pour voir la legende.</strong> </p>
 			</div>
+			<label class="switch">
 
-			<p id="submit">- Cliquez ici pour voir la Legende...</p>
+				<input type="checkbox" id="submit">
+				<span class="slider round"></span>
+
+			</label>			
 			<dir id="feedback">
 				<img src="assets/img/legende.png">
 			</dir>
