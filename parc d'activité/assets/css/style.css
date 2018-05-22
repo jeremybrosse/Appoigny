@@ -603,4 +603,129 @@ h1,h2,h4,h5,h6 {
     .timeLine .row .pull-right:after {
       display: none; } 
     }
+/***********************************\
+/                                   \
+/     MediaQuerries header.php      \
+/                                   \
+/***********************************/
 
+@media screen and (max-width: 1900px) {
+
+#imgH{
+  background-image: url(../img/chantier.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8.75vw;
+}
+h1{
+  font-family: Alice;
+  text-align: center;
+  text-shadow: 2px 2px 2px grey;
+  font-size: 3em;
+  background-color: white;
+  opacity:0.5;
+}
+
+#logoS{
+  height: 9vw;
+  width: 15vh;
+  border-radius: 3vh;
+  box-shadow: 2px 2px 2px grey;
+}
+.pictogramme{
+  height: 8em;
+  width: 8em;
+  margin-top: -5vh;
+  margin-right: 11vh;
+}
+.petitT{
+  margin-left: -10vh;
+  color: black;
+}
+.nav-item{
+  margin-left: -4em;
+}
+
+}
+@media screen and (max-width: 1025px) {
+
+ #imgH{
+  background-image: url(../img/chantier.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: -8vh;
+}
+h1{
+  font-family: Alice;
+  text-align: center;
+  text-shadow: 2px 2px 2px grey;
+  font-size: 3em;
+  background-color: white;
+  opacity:0.5;
+}
+
+#logoS{
+  height: 9vw;
+  width: 15vh;
+  border-radius: 3vh;
+  box-shadow: 2px 2px 2px grey;
+}
+.pictogramme{
+  height: 8em;
+  width: 8em;
+  margin-top: -5vh;
+  margin-right: 11vh;
+}
+.petitT{
+  margin-left: -10vh;
+  color: black;
+}
+.nav-item{
+  margin-left: -4em;
+}
+ul{
+  margin-left: -3.50em;
+}
+}
+
+@media screen and (max-width: 420px) {
+
+ #imgH{
+  background-image: url(../img/chantier.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8.75vw;
+}
+h1{
+  font-family: Alice;
+  text-align: center;
+  text-shadow: 2px 2px 2px grey;
+  font-size: 1em;
+  margin-top:-17vh;
+}
+
+#logoS{
+  height: 8vw;
+  width: 5vh;
+  border-radius: 3vh;
+  box-shadow: 2px 2px 2px grey;
+}
+.pictogramme{
+  height: 2em;
+  width: 2em;
+  margin-top: -35vh;
+  margin-left: 1em;
+}
+.petitT{
+  margin-top: -17vh;
+  color: black;
+  font-size: 0.5em;
+  margin-left: -8em;
+}
+.nav-item{
+  margin-left: -4em;
+}
+ul{
+  margin-left: 2.25em;
+}
+}
