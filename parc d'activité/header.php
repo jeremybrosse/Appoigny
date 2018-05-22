@@ -25,7 +25,7 @@
 			<div class="col px-0">
 				<a href="acceuil.php"><img src="assets/img/logo.png" class="img-fluid logo mx-3 mt-5 "></a>
 				<img src="assets/img/chantier.png" class="img-fluid draw ">
-				<h1 class="title mb-0">Parc d'activités d'Appoigny</h1>
+				<h1 class="titre mb-0">Parc d'activités d'Appoigny</h1>
 			</div>
 		</section>
 		<nav class="offset-1 navbar navbar-expand-lg p-0 btn">
