@@ -1,5 +1,5 @@
 <?php 
-include_once('header.php');
+include_once('head.php');
  ?>
 	<main class="container-fluid">
 		<img src="assets/img/forest.png" class="forest">
