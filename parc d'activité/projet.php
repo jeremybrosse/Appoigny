@@ -2,25 +2,25 @@
 include_once('header.php');
  ?>
 	<main class="container-fluid">
-		<img src="assets/img/presentation.png" class="forest">
-		<img src="assets/img/checklist.png" class="build">
+		<img src="assets/img/presentation.png" class="forest d-none d-md-block">
+		<img src="assets/img/checklist.png" class="build d-none d-md-block">
 		<section class="container">
 			<div class="row">
 			
-			<div class="col-7">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15143.932355865707!2d3.531203801084315!3d47.85713662705798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee4e0038f8fe87%3A0x409ce34b30d6cd0!2s89380+Appoigny!5e0!3m2!1sfr!2sfr!4v1526558335378" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br>
-			<a href="#" class="text-dark">PLAQUETTE DE PRESENTATION DU PARC D’ACTIVITES </a>
+			<div class=" responiframes col-sm-7 col-xs-12">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15143.932355865707!2d3.531203801084315!3d47.85713662705798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee4e0038f8fe87%3A0x409ce34b30d6cd0!2s89380+Appoigny!5e0!3m2!1sfr!2sfr!4v1526558335378" width="600" height="500" frameborder="1" style="border:0" allowfullscreen></iframe><br>
+			
 			<hr>
 			</div>
-			<div class="col-5">
+			<div class="col-sm-5 col-xs-12">
 				Le futur Parc d’activités économiques situé en bordure de l’autoroute A6, offrira près de 34 hectares de superficie commercialisable, pour mettre en vitrine le dynamisme du territoire. Au pied de l’échangeur Nord de l’Autoroute A6, à Appoigny, le parc d’activités économiques s’étend sur 50 hectares, divisés en deux secteurs. Au Nord, 40 hectares, bénéficieront d’une très belle façade sur l’Autoroute du Soleil, atout indéniable pour porter l’image et la notoriété des entreprises et du site.  Au Sud, environ 10 hectares, longeront la RN6, derrière le parc hôtelier/restauration. 
 			</div>
 			</div>
 			<div class="row">
-				<div class="col-4 ">
+				<div class="col-4 d-none d-md-block ">
 			<img class="imgtimeline" src="assets/img/imgtimeline/horloge.jpg" width="300" height="300" />
 				</div>
-			<div id="timeline" class="col-8 ">
+			<div id="timeline" class="col-sm-8 col-xs-12 ">
 					<ul id="dates">
 						<li><a href="#2005">2005</a></li>
 						<li><a href="#2006">2006</a></li>
@@ -96,8 +96,8 @@ include_once('header.php');
 
 					</ul>
 					
-					<a href="#" id="next">+</a>
-					<a href="#" id="prev">-</a>
+					<a href="#" id="next d-none d-md-block">+</a>
+					<a href="#" id="prev d-none d-md-block">-</a>
 				</div>
 			
 			</div>

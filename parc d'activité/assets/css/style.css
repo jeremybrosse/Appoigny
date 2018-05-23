@@ -1,136 +1,131 @@
 @import url('https://fonts.googleapis.com/css?family=Alice|Rubik+Mono+One');
-a{
-  color: white !important;
-  font-family: Alice;
-}
-#tailleI{
-  background-image: url(../img/accueil.png);
+/***********************************\
+/                                   \
+/     MediaQuerries header.php      \
+/                                   \
+/***********************************/
 
+@media screen and (max-width: 1900px) {
+
+#imgH{
+  background-image: url(../img/chantier.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8.75vw;
 }
 h1{
   font-family: Alice;
   text-align: center;
   text-shadow: 2px 2px 2px grey;
-}
-#align{
-  text-align: center;
-}
-#center{
-  text-align: center;
-}
-.logo{
-  height: 65%;
-  position: absolute;
-  left: 7vw;
-  top: -4vh;
-  z-index: 9999;
+  font-size: 3em;
   background-color: white;
-  border-radius: 1.5em;
-  border: 3px solid white;
-  box-shadow:  5px 5px 5px grey;
+  opacity:0.5;
+}
 
-}
-.titre{
-  background-color: rgba(250,250,250,0.4);
-  position: absolute;
-  top: 0vh;
-  right: 8.75vw;
-  padding:1.9em 6.6em 1.9em 6.6em;
-  font-size: 4em;
-  color: #000;
-}
-.draw{
-  margin-left: 12em;
-}
-nav{
-  width: 100em;
-}
-.ecoparc{
-  font-size: 2.1em;
-  color: #006400;
-}
-.forest{
-  position: fixed;
-  height: 25em;
-  top: 28vw;
-  left: -17vh;
-  z-index: -1;
-}
-.build{
-  position: fixed;
-  height: 25em;
-  top: 16vw;
-  right: -17vh;
+#logoS{
+  height: 9vw;
+  width: 15vh;
+  border-radius: 3vh;
+  box-shadow: 2px 2px 2px grey;
 }
 .pictogramme{
-height: 10em;
+  height: 8em;
+  width: 8em;
+  margin-top: -5vh;
+  margin-right: 11vh;
 }
-.btn{
-  position: relative;
-  top: -7vh;
+.petitT{
+  margin-left: -10vh;
+  color: black;
 }
-.onglet1{
-  position: absolute;
-  left: 12.5vw;
-  top: 1.25vh;
-  background-color: rgba(0,0,0,0.65);
-  color: white;
-  border-radius: 10em;
-  opacity: 0;
-  padding: 4.3em 3em;
+.nav-item{
+  margin-left: -4em;
 }
-.onglet2{
-  position: absolute;
-  left: 24vw;
-  top: 1.25vh;
-  background-color: rgba(0,0,0,0.65);
-  color: white;
-  border-radius: 10em;
-  opacity: 0;
-  padding: 4.3em 2.5em;
-
 
 }
-.onglet3{
-  position: absolute;
-  left: 36.5vw;
-  top: 1.25vh;
-  background-color: rgba(0,0,0,0.65);
-  color: white;
-  border-radius: 10em;
-  opacity: 0;
-  padding: 4.3em 1.8em;
+@media screen and (max-width: 1025px) {
 
-
+ #imgH{
+  background-image: url(../img/chantier.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: -8vh;
 }
-.onglet4{
-  position: absolute;
-  left: 49.1vw;
-  top: 1.25vh;
-  background-color: rgba(0,0,0,0.65);
-  color: white;
-  border-radius: 10em;
-  opacity: 0;
-  padding: 4.3em 2.8em;
-
-
+h1{
+  font-family: Alice;
+  text-align: center;
+  text-shadow: 2px 2px 2px grey;
+  font-size: 3em;
+  background-color: white;
+  opacity:0.5;
 }
-.onglet5{
-  position: absolute;
-  left: 61.5vw;
-  top: 1.25vh;
-  background-color: rgba(0,0,0,0.65);
-  color: white;
-  border-radius: 10em;
-  opacity: 0;
-  padding: 4.3em 3.1em;
 
+#logoS{
+  height: 9vw;
+  width: 15vh;
+  border-radius: 3vh;
+  box-shadow: 2px 2px 2px grey;
+}
+.pictogramme{
+  height: 8em;
+  width: 8em;
+  margin-top: -5vh;
+  margin-right: 11vh;
+}
+.petitT{
+  margin-left: -10vh;
+  color: black;
+}
+.nav-item{
+  margin-left: -4em;
+}
+ul{
+  margin-left: -3.50em;
+}
+}
 
+@media screen and (max-width: 420px) {
+
+ #imgH{
+  background-image: url(../img/chantier.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8.75vw;
 }
-.first-news:hover .onglet1, .first-news:hover .onglet2, .first-news:hover .onglet3, .first-news:hover .onglet4, .first-news:hover .onglet5{
-  opacity: 1;
-  transition: .5s;
+h1{
+  font-family: Alice;
+  text-align: center;
+  text-shadow: 2px 2px 2px grey;
+  font-size: 1em;
+  margin-top:-17vh;
 }
+
+#logoS{
+  height: 8vw;
+  width: 5vh;
+  border-radius: 3vh;
+  box-shadow: 2px 2px 2px grey;
+}
+.pictogramme{
+  height: 2em;
+  width: 2em;
+  margin-top: -35vh;
+  margin-left: 1em;
+}
+.petitT{
+  margin-top: -17vh;
+  color: black;
+  font-size: 0.5em;
+  margin-left: -8em;
+}
+.nav-item{
+  margin-left: -4em;
+}
+ul{
+  margin-left: 2.25em;
+}
+}
+
 
 
 .logo-partenaires{
@@ -159,6 +154,25 @@ height: 10em;
 .bg-footer{
   background-color: rgba(250,250,250,0.7);
 }
+/******************************/
+/*    iframes responsive      */
+/******************************/
+.responiframes
+{
+position: relative;
+}
+
+.responiframes iframe
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+
 
 /******************************/
 /*    bouton toggle legende   */
@@ -322,14 +336,14 @@ h1,h2,h4,h5,h6 {
         }*/
         #issues li h1 {
           color: #000!important;
-          font-size: 48px;
+          font-size: 5vw;
           margin: 20px 0;
           text-shadow: #000 1px 1px 2px;
           text-align: left;
         }
         #issues li p {
            color: #000!important;
-          font-size: 20px;
+          font-size: 3vw;
           margin-right: 70px;
           font-weight: normal;
           line-height: 22px;
@@ -603,129 +617,4 @@ h1,h2,h4,h5,h6 {
     .timeLine .row .pull-right:after {
       display: none; } 
     }
-/***********************************\
-/                                   \
-/     MediaQuerries header.php      \
-/                                   \
-/***********************************/
 
-@media screen and (max-width: 1900px) {
-
-#imgH{
-  background-image: url(../img/chantier.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 8.75vw;
-}
-h1{
-  font-family: Alice;
-  text-align: center;
-  text-shadow: 2px 2px 2px grey;
-  font-size: 3em;
-  background-color: white;
-  opacity:0.5;
-}
-
-#logoS{
-  height: 9vw;
-  width: 15vh;
-  border-radius: 3vh;
-  box-shadow: 2px 2px 2px grey;
-}
-.pictogramme{
-  height: 8em;
-  width: 8em;
-  margin-top: -5vh;
-  margin-right: 11vh;
-}
-.petitT{
-  margin-left: -10vh;
-  color: black;
-}
-.nav-item{
-  margin-left: -4em;
-}
-
-}
-@media screen and (max-width: 1025px) {
-
- #imgH{
-  background-image: url(../img/chantier.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: -8vh;
-}
-h1{
-  font-family: Alice;
-  text-align: center;
-  text-shadow: 2px 2px 2px grey;
-  font-size: 3em;
-  background-color: white;
-  opacity:0.5;
-}
-
-#logoS{
-  height: 9vw;
-  width: 15vh;
-  border-radius: 3vh;
-  box-shadow: 2px 2px 2px grey;
-}
-.pictogramme{
-  height: 8em;
-  width: 8em;
-  margin-top: -5vh;
-  margin-right: 11vh;
-}
-.petitT{
-  margin-left: -10vh;
-  color: black;
-}
-.nav-item{
-  margin-left: -4em;
-}
-ul{
-  margin-left: -3.50em;
-}
-}
-
-@media screen and (max-width: 420px) {
-
- #imgH{
-  background-image: url(../img/chantier.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 8.75vw;
-}
-h1{
-  font-family: Alice;
-  text-align: center;
-  text-shadow: 2px 2px 2px grey;
-  font-size: 1em;
-  margin-top:-17vh;
-}
-
-#logoS{
-  height: 8vw;
-  width: 5vh;
-  border-radius: 3vh;
-  box-shadow: 2px 2px 2px grey;
-}
-.pictogramme{
-  height: 2em;
-  width: 2em;
-  margin-top: -35vh;
-  margin-left: 1em;
-}
-.petitT{
-  margin-top: -17vh;
-  color: black;
-  font-size: 0.5em;
-  margin-left: -8em;
-}
-.nav-item{
-  margin-left: -4em;
-}
-ul{
-  margin-left: 2.25em;
-}
-}
