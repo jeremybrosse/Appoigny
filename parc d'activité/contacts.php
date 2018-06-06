@@ -5,10 +5,10 @@ include_once('header.php');
  	<img src="assets/img/agenda.png" class="forest d-none d-md-block">
 	<img src="assets/img/letter.png" class="build d-none d-md-block">
  	<div class="row ">
- 		<div class="offset-2 col-8">
+ 		<div class="offset-2 col-md-8">
  			<form class="needs-validation bg-black px-5 py-3 ">
  				<div class="row">
- 					<div class="col-md-12  mb-3">
+ 					<div class="col-md-12 col-xs-12 mb-3">
  						<p class=" text-center text-contact">
  							Vous souhaitez un renseignement ?<br>
  							Par téléphone au 06.62.32.35.35<br>

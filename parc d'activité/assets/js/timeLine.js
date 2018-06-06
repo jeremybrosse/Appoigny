@@ -1,4 +1,4 @@
-console.log("test");
+
 
 
 /*! WOW - v1.1.3 - 2016-05-06
@@ -71,7 +71,7 @@ console.log("test");
                 function hexToRgbaColor(color)
                 {
                     'use strict';
-                    console.log(color);
+                  
                     var isColor = colorCheck(color)[0],
                         defaultColor = '#b50000',
                         neigborDefaultColor = '#5E0000';

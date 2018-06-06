@@ -2,16 +2,17 @@
 include_once('header.php');
  ?>
 	<main class="container-fluid">
-		<img src="assets/img/forest.png" class="forest">
-		<img src="assets/img/hills.png" class="build">
+		<img src="assets/img/forest.png" class="forest d-none d-md-block">
+		<img src="assets/img/hills.png" class="build d-none d-md-block">
 		<section class="container">
 			<hr>
 			<div class="row mb-5">
-				<div class="col-md-1 ecoparc p-0 text-center">
+				<div class="col-md-1 d-none d-md-block ecoparc p-0 text-center ">
 					<p>E <br> C <br> O</p>
 					<p>P<br>A<br>R<br>C</p>
 				</div>
-				<div class="col-md-5 my-3" id="tailleI">
+				<div class="col-sm-12 col-md-5 my-3 card" id="tailleI">
+					<img class="card-img" src="assets/img/accueil.png">
 				</div>
 				<div class="col-md-6 my-3">
 					<br><br>
@@ -27,7 +28,7 @@ include_once('header.php');
 					notoriété des entreprises et du site.</p>
 					<p>Au Sud, environ 10 hectares, longeront la RN6, derrière le parc
 					hôtelier/restauration.</p>
-					<a href="http://www.communaute-auxerrois.com/images/publications/parc-activite-appoigny/Parc_activite_appoigny.pdf"><strong>Le parc d'activités économiques à Appoigny : la priorité au maintien et au développement de l'emploi local</strong></a> 
+					
 				</div>
 			</div>
 		</section>

@@ -1,7 +1,7 @@
 <?php 
 include_once('header.php');
  ?>
-	<main class="container-fluid">
+	<main class="container-fluid" style="position: relative;">
 		<img src="assets/img/camera.png" class="forest d-none d-md-block">
 		<img src="assets/img/picture.png" class="build d-none d-md-block">
 
@@ -14,7 +14,7 @@ include_once('header.php');
 						<div class="caption">
 							<div class="star center-block">
 								<span class="h3">10</span>
-								<span>nov</span>
+								<span>Sep</span>
 								<span>2016</span>
 							</div>
 							<div class="image">
@@ -32,8 +32,8 @@ include_once('header.php');
 						<div class="caption">
 							<div class="star center-block">
 								<span class="h3">15</span>
-								<span>Sep</span>
-								<span>2007</span>
+								<span>Nov</span>
+								<span>2016</span>
 							</div>
 							<div class="image">
 								<img src="https://picsum.photos/600/401/?random">
@@ -50,8 +50,8 @@ include_once('header.php');
 						<div class="caption">
 							<div class="star center-block">
 								<span class="h3">18</span>
-								<span>Aug</span>
-								<span>2011</span>
+								<span>Dec</span>
+								<span>2016</span>
 							</div>
 							<div class="image">
 								<img src="https://picsum.photos/601/400/?random">
@@ -68,17 +68,17 @@ include_once('header.php');
 						<div class="caption">
 							<div class="star center-block">
 								<span class="h3">01</span>
-								<span>May</span>
-								<span>2012</span>
+								<span>Jun</span>
+								<span>2016</span>
 							</div>
 							<div class="image">
-								<img src="https://picsum.photos/603/400/?random">
+								<img src="https://picsum.photos/605/400/?random">
 								<div class="title">
-									<h2>Work field <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+									<h2>Hope <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 								</div>
 							</div>
 							<div class="textContent">
-								<p class="lead">For 2 years of work as support engineer responsible about installing and maintenance SWIFT packages for banks. I gain a lot from it before i leave country.</p>
+								<p class="lead">Dreams are always growing up by hope. This is the last thing that i can not get rid of it just because i believe in myself and my abilities.</p>
 							</div>
 						</div>
 					</div>
@@ -103,12 +103,30 @@ include_once('header.php');
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
 						<div class="caption">
 							<div class="star center-block">
+								<span class="h3">10</span>
+								<span>Sep</span>
+								<span>2016</span>
+							</div>
+							<div class="image">
+								<img src="https://picsum.photos/600/400/?random">
+								<div class="title">
+									<h2>Started to Breath <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+								</div>
+							</div>
+							<div class="textContent">
+								<p class="lead">Hi, this is my very short history, lets start from my berthday that was in 27 of January 1990. I thing my feet was bigger than this because now i just can buy shoes with size 45 LOL.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item ">
+						<div class="caption">
+							<div class="star center-block">
 								<span class="h3">01</span>
 								<span>Jun</span>
 								<span>2016</span>
 							</div>
 							<div class="image">
-								<img src="https://picsum.photos/605/400/?random">
+								<video src="#"></video>
 								<div class="title">
 									<h2>Hope <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 								</div>
@@ -126,7 +144,43 @@ include_once('header.php');
 								<span>2016</span>
 							</div>
 							<div class="image">
-								<video src="Lights.mp4"></video>
+								<video src="#"></video>
+								<div class="title">
+									<h2>Hope <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+								</div>
+							</div>
+							<div class="textContent">
+								<p class="lead">Dreams are always growing up by hope. This is the last thing that i can not get rid of it just because i believe in myself and my abilities.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item ">
+						<div class="caption">
+							<div class="star center-block">
+								<span class="h3">01</span>
+								<span>Jun</span>
+								<span>2016</span>
+							</div>
+							<div class="image">
+								<video src="#"></video>
+								<div class="title">
+									<h2>Hope <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+								</div>
+							</div>
+							<div class="textContent">
+								<p class="lead">Dreams are always growing up by hope. This is the last thing that i can not get rid of it just because i believe in myself and my abilities.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item ">
+						<div class="caption">
+							<div class="star center-block">
+								<span class="h3">01</span>
+								<span>Jun</span>
+								<span>2016</span>
+							</div>
+							<div class="image">
+								<video src="#"></video>
 								<div class="title">
 									<h2>Hope <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 								</div>
