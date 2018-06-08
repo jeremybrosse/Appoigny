@@ -1,0 +1,55 @@
+/**********************/
+/********HEADER********/
+/**********************/
+small{
+	text-shadow: 1px 1px 1px grey;
+}
+.imgB{
+	border: 2px solid white;
+	border-radius: 5vh;
+	box-shadow: 4px 4px 4px grey;
+}
+.navmenu{
+	transition: all 0.5s;
+	background-color: white;
+	z-index: 9999;
+}
+.navmenu2{
+	transition: all 0.5s;
+	background-color: rgba(250, 250, 250, 0.8);
+	z-index: 9999;
+}
+.navbar-brand img.stick {
+	max-height: 60px !important;
+	transition: max-height 0.3s;
+}
+li a img.imgP{
+	display: none;
+}
+.bgToggle{
+	background-color: white;
+	margin: -3vh;
+	z-index: -1;
+	padding-left: 2vh;
+	padding-top: 3vh;
+}
+
+/**************************/
+/********FIN HEADER********/
+/**************************/
+
+/**********************/
+/********FOOTER********/
+/**********************/
+.fas{
+  color: rgb(255,112,88);
+}
+.bg-orange{
+  background-color: rgb(255,112,88);
+}
+.bg-footer{
+  background-color: rgba(250,250,250,0.7);
+}
+/**************************/
+/********FIN FOOTER********/
+/**************************/
