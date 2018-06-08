@@ -1,0 +1,139 @@
+
+      /*Début CSS Animation page 404*/
+@keyframes animtracto {
+  from {
+    left: -27vw;
+    top: 15.75vw;
+  }
+  to {
+    left: 100vw;
+    top: 15.75vw;
+  }
+}
+#img1 {
+  animation-duration: 24.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-name: animtracto;
+  position: relative;
+  z-index: 9999;
+}
+
+@-webkit-keyframes roueAvant {
+  from{
+    left: -40.50vw;
+    top: 20.25vw;
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    left: 100vw;
+    top: 20.25vw;
+    -webkit-transform: rotate(360deg);
+  }
+}
+#img3
+{
+  -webkit-animation: roueAvant 0.1s linear;
+  animation-duration: 27s;
+  animation-fill-mode: forwards;
+  animation-name: roueAvant;
+  position: relative;
+  z-index: 9999;
+}
+
+@-webkit-keyframes roueArriere {
+  from{
+    left: -52.25vw;
+    top: 19.75vw;
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    left: 100vw;
+    top: 19.75vw;
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+#img4 {
+  -webkit-animation: roueArriere 50s linear;
+  animation-duration: 29.4s;
+  animation-fill-mode: forwards;
+  animation-name: roueArriere;
+  position: relative;
+  z-index: 9999;
+}
+
+
+@keyframes animerreur {
+  0% {
+    left: -41vw;
+    top: 15.5vw;
+  }
+  95% {
+    left: 13vw;
+    top: 15.5vw;
+
+  }
+  96%
+  {
+    transform: scale(1);
+    left: 13vw;
+    top: 15.5vw;
+  }
+  97%
+  {
+   transform: scale(1.4);
+   left: 13vw;
+   top: 15.5vw;
+ }
+ 98.5%
+ {
+   transform: scale(1);
+   left: 13vw;
+   top: 15.5vw;
+ }
+ 99%
+ {
+   transform: scale(1.4);
+   left: 13vw;
+   top: 15.5vw;
+ }
+ 100%
+ {
+  transform: scale(1);
+  left: 13vw;
+  top: 15.5vw;
+
+}
+
+}
+#img2 {
+  animation-duration: 10.9s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-name: animerreur;
+  position: relative;
+}
+
+
+#bounceT{
+  text-align: center;
+  font-size: 3.5em;
+  text-shadow: 3px 3px 3px grey;  
+  background: -webkit-linear-gradient(top, orange, red);
+  background: linear-gradient(top, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#bgAnim{
+  background-image: url(../img/bgarbre.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  z-index: 8000;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+      /*Fin CSS Animation page 404*/
