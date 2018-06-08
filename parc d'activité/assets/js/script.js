@@ -4,33 +4,8 @@ var _gaq = _gaq || [];
   _gaq.push(['_trackPageview']);
 
 $(function(){
-  $(".owl-carousel").owlCarousel({
-  	margin:10,
-    rewind:true,
-    slideBy:2,
-    items:4,
-    nav:true,
-    autoplay:true,
-    responsive:{
-    	0:{
-    		items:1
-    	},
-    	400:{
-    		items:2
-    	},
-    	800:{
-    		items:3
-    	},
-    	1000:{
-    		items:10
-    	}
-    }
-  });
-
-    $().timelinr({
-        autoPlay: 'true',        
-        autoPlayDirection: 'forward'
-        });
+   $("#submit").on("click", toggleText);    
+   $("#newsletter>form").on("submit", validForm);
 
     $('.timeLine').timeLine({
         mainColor: '#4DB7AA',
@@ -44,7 +19,7 @@ $(function(){
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-    $("#submit").on("click", toggleText);
+   
      
 });
 
@@ -53,4 +28,12 @@ function toggleText(){
 
 }
 
-  
+  function validForm(event){
+    event.preventDefault();
+    $("#newsletter>form").fadeOut(1000, showMessage);
+}
+
+function showMessage(){
+    $("#feedback").html("Votre inscription est prise en compte");
+    $("#feedback").fadeIn(1000);
+}

@@ -6,16 +6,14 @@ include_once('header.php');
 		<img src="assets/img/hills.png" class="build d-none d-md-block">
 		<section class="container">
 			<hr>
-			<div class="row mb-5">
-				<div class="col-md-1 d-none d-md-block ecoparc p-0 text-center ">
-					<p>E <br> C <br> O</p>
-					<p>P<br>A<br>R<br>C</p>
-				</div>
-				<div class="col-sm-12 col-md-5 my-3 card" id="tailleI">
+			<div class="row mb-5">				
+				<div class="col-lg-6 my-3">
+					<div class="card">
 					<img class="card-img" src="assets/img/accueil.png">
+					</div>
 				</div>
-				<div class="col-md-6 my-3">
-					<br><br>
+				<div class="col-lg-6 my-3">
+					
 					<p>Le futur Parc d’activités économiques situé en bordure de
 						l’autoroute A6, offrira près de 34 hectares de superficie
 						commercialisable, pour mettre en vitrine le dynamisme du

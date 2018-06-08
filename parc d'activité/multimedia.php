@@ -28,6 +28,7 @@ include_once('header.php');
 							</div>
 						</div>
 					</div>
+					
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
 						<div class="caption">
 							<div class="star center-block">
@@ -136,7 +137,7 @@ include_once('header.php');
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item ">
+					<!--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item ">
 						<div class="caption">
 							<div class="star center-block">
 								<span class="h3">01</span>
@@ -148,49 +149,7 @@ include_once('header.php');
 								<div class="title">
 									<h2>Hope <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
 								</div>
-							</div>
-							<div class="textContent">
-								<p class="lead">Dreams are always growing up by hope. This is the last thing that i can not get rid of it just because i believe in myself and my abilities.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item ">
-						<div class="caption">
-							<div class="star center-block">
-								<span class="h3">01</span>
-								<span>Jun</span>
-								<span>2016</span>
-							</div>
-							<div class="image">
-								<video src="#"></video>
-								<div class="title">
-									<h2>Hope <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
-								</div>
-							</div>
-							<div class="textContent">
-								<p class="lead">Dreams are always growing up by hope. This is the last thing that i can not get rid of it just because i believe in myself and my abilities.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item ">
-						<div class="caption">
-							<div class="star center-block">
-								<span class="h3">01</span>
-								<span>Jun</span>
-								<span>2016</span>
-							</div>
-							<div class="image">
-								<video src="#"></video>
-								<div class="title">
-									<h2>Hope <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
-								</div>
-							</div>
-							<div class="textContent">
-								<p class="lead">Dreams are always growing up by hope. This is the last thing that i can not get rid of it just because i believe in myself and my abilities.</p>
-							</div>
-						</div>
-					</div>
-
+							</div>	-->						
 			</div>
 		</div>
 		

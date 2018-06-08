@@ -23,7 +23,7 @@ include_once('header.php');
 
 			</label>			
 			<dir class="col-12" id="feedback">
-				<img src="assets/img/legende.png" class="img-fluid" alt="Responsive image">
+				<img src="assets/img/legende.png" class="img-fluid legende" alt="Responsive image">
 			</dir>
 		</section>
 	</main>
