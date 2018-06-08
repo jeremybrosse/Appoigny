@@ -15,3 +15,4 @@ Auth::routes();
 
 Route::get('/', 'indexController@accueil')->name('accueil');
 Route::get('/projet', 'mainController@projet')->name('projet');
+Route::get('/chantier','mainController@chantier')->name('chantier');

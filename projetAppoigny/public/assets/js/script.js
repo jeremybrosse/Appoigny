@@ -1,5 +1,6 @@
 $(function(){
     $(document).on('scroll', scrolled);
+    $("#submit").on("click", toggleText);
 });
 
 function scrolled() {
@@ -14,4 +15,8 @@ function scrolled() {
         $('img').addClass("imgP");
         $('small').addClass("paddSm");
     }
+}
+function toggleText(){
+  $("#feedback").toggle();
+
 }

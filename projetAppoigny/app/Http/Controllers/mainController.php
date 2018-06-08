@@ -9,4 +9,7 @@ class mainController extends Controller
     public function projet(){
     	return view('projet');
     }
+    public function chantier(){
+    	return view('chantier');
+    }
 }
