@@ -27,7 +27,7 @@
 						<a class="nav-link" href="{{ route('projet')}}"><img class="img-fluid " src="{{ asset('assets/img/navbar/logoprojet.png') }}"><small class="d-md-block">Projet</small></a>
 					</li>
 					<li class="nav-item active px-md-5">
-						<a class="nav-link" href="#"><img class="img-fluid " src="{{ asset('assets/img/navbar/logochantier.png') }}"><small class="d-md-block">Chantier</small></a>
+						<a class="nav-link" href="{{ route('chantier')}}"><img class="img-fluid " src="{{ asset('assets/img/navbar/logochantier.png') }}"><small class="d-md-block">Chantier</small></a>
 					</li>
 					<li class="nav-item active px-md-5">
 						<a class="nav-link" href="#"><img class="img-fluid " src="{{ asset('assets/img/navbar/media.png') }}"><small class="d-md-block">Photos/Vidéos</small></a>
